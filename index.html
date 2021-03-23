@@ -15,7 +15,7 @@
 <body>
     <h1>Ocean Madlib</h1>
     <main>
-        <div class="input-container">
+        <div class="input-container" id="inputContainer">
             <input id = 'Adjective1' type="text" placeholder="Adjective">
             <input id = 'Vehicle' type="text" placeholder="Vehicle">
             <input id = 'Adjective2' type="text" placeholder="Adjective">
@@ -37,10 +37,14 @@
             <input id = 'Color' type="text" placeholder='Color'>
             <input id = 'Noun5' type="text" placeholder="Noun">
             <input id = 'Noun6' type="text" placeholder="Noun">
+            
+            <button class="btn" type="submit" id="btn">Submit</button>
         </div>
+
+       
         
 
-        <p>
+        <p id="mainText">
         I'm a <span id='span1'>_____</span> biologist aboard a <span id='span2'>_____</span> on the <span id='span3'>_____</span> Ocean. <br>
         I'm inside a <span id='span4'>_____</span> cage made of <span id='span5'>_____</span> and am about to <span
         id='span6'>_____</span> into the ocean surrounded by deadly <span id='span7'>_____</span>. <br>
@@ -54,6 +58,7 @@
         like rocks but are actually living <span id='span21'>_____</span>. <br>
         It's a job, but I love it! <br>
         </p>
+        <button class="retry" id="retry"><a href="./index.html">Retry</a></button>
     </main>
 
     
